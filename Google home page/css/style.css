@@ -1,0 +1,148 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+header{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header ul{
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+}
+
+header li{
+  list-style: none;
+  margin-left: 20px;
+}
+
+header a{
+  text-decoration: none;
+  color: #111;
+  font-size: 13px;
+}
+
+header button{
+  background-color: #4584ef;
+  border: none;
+  outline: none;
+  padding: 8px 14px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+main{
+  margin: auto;
+  margin-top: 50px;
+  width: 570px;
+  display: flex;  
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box{
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+}
+
+.search{
+  margin:auto;
+  width: 98%;
+  padding: 13px;
+  padding-left: 60px;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  outline: none;
+  font-size: 14px;
+} 
+
+
+.search-icon{
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 14px 20px;
+}
+
+.mic-icon{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px 20px;  
+}
+
+.search-buttons{
+  margin-top: 20px;
+}
+
+.search-buttons button{
+  margin: 0 5px;
+  padding: 10px 20px;
+  color: #555;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+  border: 1px solid transparent;
+  outline: none;
+  border-radius: 2px;
+}
+
+.lang{
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.lang a{
+  text-decoration: none;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+}
+
+footer ul{
+  display: flex;
+  margin: 20px 40px;
+}
+footer li{
+  list-style: none;
+  margin-left: 15px;
+}
+footer ul li:first-child{
+  margin-left: 0;
+}
+footer a{
+  text-decoration: none;
+  font-size: 14px;
+  color: #5f6368;
+
+}

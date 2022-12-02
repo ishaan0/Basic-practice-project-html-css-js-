@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+  font-family: "Poppins", sans-serif;
+  background-color: #68ddd7;
+  color: #658ec6;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass {
+  background-color: whitesmoke;
+  min-height: 85vh;
+  width: 65%;
+  border-radius: 2rem;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  display: inline-block;
+}
+
+.dashboard {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to right bottom,
+    rgba(255, 255, 255, 0.7),
+    rgba(255, 255, 255, 0.3)
+  );
+  border-radius: 2rem;
+  position: relative;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.user img {
+  margin-top: 3px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.user h3{
+  margin-top: 5px;
+}
+
+.links {
+  min-width: 80%;
+  margin: 0.5rem 0.8rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.link h2 {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 1rem;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.link img {
+  height: 40px;
+  width: 40px;
+  border-radius: 10px;
+}
+
+.cards{
+  min-height: 85%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.card{
+  margin: 0.5rem 0.5rem ;
+  background: linear-gradient( to left top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5));
+  padding: 30px;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card-heading{
+  color: #5496DD;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.card img{
+  height: 120px;
+  width: 110px;
+}
+
+.card h3{
+  margin-top: 10px;
+}
